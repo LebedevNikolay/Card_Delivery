@@ -1,4 +1,4 @@
-package ru.netology;
+package ru.netology.card;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
