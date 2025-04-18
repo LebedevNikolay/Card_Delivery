@@ -1,4 +1,4 @@
-package ru.netology.card;
+package ru.netology;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -28,7 +28,7 @@ public class CardDeliveryNegativeTest {
         $("[data-test-id='city'] [placeholder='Город']").setValue("");
         $("[data-test-id='date'] [class='input__box'] [placeholder='Дата встречи']").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id='date'] [class='input__box'] [placeholder='Дата встречи']").setValue(dateText);
-        $("[data-test-id='name'] [type=text]").setValue("Иван Иванов");
+        $("[data-test-id='name'] [type=text]").setValue("Ирина Пирогова");
         $("[data-test-id='phone'] [type=tel]").setValue("+79883339918");
         $("[data-test-id=agreement]").click();
         $("[role=button] .button__content").click();
@@ -46,7 +46,7 @@ public class CardDeliveryNegativeTest {
         $("[data-test-id='city'] [placeholder='Город']").setValue("Париж");
         $("[data-test-id='date'] [class='input__box'] [placeholder='Дата встречи']").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id='date'] [class='input__box'] [placeholder='Дата встречи']").setValue(dateText);
-        $("[data-test-id='name'] [type=text]").setValue("Иван Иванов");
+        $("[data-test-id='name'] [type=text]").setValue("Ирина Пирогова");
         $("[data-test-id='phone'] [type=tel]").setValue("+79883339918");
         $("[data-test-id=agreement]").click();
         $("[role=button] .button__content").click();
@@ -64,7 +64,7 @@ public class CardDeliveryNegativeTest {
         $("[data-test-id='city'] [placeholder='Город']").setValue("Краснодар");
         $("[data-test-id='date'] [class='input__box'] [placeholder='Дата встречи']").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id='date'] [class='input__box'] [placeholder='Дата встречи']").setValue("");
-        $("[data-test-id='name'] [type=text]").setValue("Иван Иванов");
+        $("[data-test-id='name'] [type=text]").setValue("Ирина Пирогова");
         $("[data-test-id='phone'] [type=tel]").setValue("+79883339918");
         $("[data-test-id=agreement]").click();
         $("[role=button] .button__content").click();
@@ -100,7 +100,7 @@ public class CardDeliveryNegativeTest {
         $("[data-test-id='city'] [placeholder='Город']").setValue("Краснодар");
         $("[data-test-id='date'] [class='input__box'] [placeholder='Дата встречи']").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id='date'] [class='input__box'] [placeholder='Дата встречи']").setValue(dateText);
-        $("[data-test-id='name'] [type=text]").setValue("Ivan Ivanov");
+        $("[data-test-id='name'] [type=text]").setValue("Irina Pirogova");
         $("[data-test-id='phone'] [type=tel]").setValue("+79883339918");
         $("[data-test-id=agreement]").click();
         $("[role=button] .button__content").click();
@@ -155,7 +155,7 @@ public class CardDeliveryNegativeTest {
         $("[data-test-id=city] [placeholder='Город']").setValue("Краснодар");
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").setValue(dateText);
-        $("[data-test-id=name] [type=text]").setValue("Иван Иванов");
+        $("[data-test-id=name] [type=text]").setValue("Ирина Пирогова");
         $("[data-test-id=phone] [type=tel]").setValue("");
         $("[data-test-id=agreement]").click();
         $("[role=button] .button__content").click();
@@ -173,7 +173,7 @@ public class CardDeliveryNegativeTest {
         $("[data-test-id=city] [placeholder='Город']").setValue("Краснодар");
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").setValue(dateText);
-        $("[data-test-id=name] [type=text]").setValue("Иван Иванов");
+        $("[data-test-id=name] [type=text]").setValue("Ирина Пирогова");
         $("[data-test-id=phone] [type=tel]").setValue("АБВ");
         $("[data-test-id=agreement]").click();
         $("[role=button] .button__content").click();
@@ -191,7 +191,7 @@ public class CardDeliveryNegativeTest {
         $("[data-test-id=city] [placeholder='Город']").setValue("Краснодар");
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").setValue(dateText);
-        $("[data-test-id=name] [type=text]").setValue("Иван Иванов");
+        $("[data-test-id=name] [type=text]").setValue("Ирина Пирогова");
         $("[data-test-id=phone] [type=tel]").setValue("#$%#$%");
         $("[data-test-id=agreement]").click();
         $("[role=button] .button__content").click();
@@ -209,7 +209,7 @@ public class CardDeliveryNegativeTest {
         $("[data-test-id=city] [placeholder='Город']").setValue("Краснодар");
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").setValue(dateText);
-        $("[data-test-id=name] [type=text]").setValue("Иван Иванов");
+        $("[data-test-id=name] [type=text]").setValue("Ирина Пирогова");
         $("[data-test-id=phone] [type=tel]").setValue("79883339918");
         $("[data-test-id=agreement]").click();
         $("[role=button] .button__content").click();
@@ -227,7 +227,7 @@ public class CardDeliveryNegativeTest {
         $("[data-test-id=city] [placeholder='Город']").setValue("Краснодар");
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").setValue(dateText);
-        $("[data-test-id=name] [type=text]").setValue("Иван Иванов");
+        $("[data-test-id=name] [type=text]").setValue("Ирина Пирогова");
         $("[data-test-id=phone] [type=tel]").setValue("+7988339918");
         $("[data-test-id=agreement]").click();
         $("[role=button] .button__content").click();
@@ -245,7 +245,7 @@ public class CardDeliveryNegativeTest {
         $("[data-test-id=city] [placeholder='Город']").setValue("Краснодар");
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").setValue(dateText);
-        $("[data-test-id=name] [type=text]").setValue("Иван Иванов");
+        $("[data-test-id=name] [type=text]").setValue("Ирина Пирогова");
         $("[data-test-id=phone] [type=tel]").setValue("+79883339918");
         $("[role=button] .button__content").click();
         $("[data-test-id='agreement'].input_invalid .checkbox__text").shouldBe(visible)

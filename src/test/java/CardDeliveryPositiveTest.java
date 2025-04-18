@@ -1,6 +1,7 @@
-package ru.netology.card;
+package ru.netology;
 
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
@@ -30,7 +31,7 @@ public class CardDeliveryPositiveTest {
         $("[data-test-id=city] [placeholder='Город']").setValue("Краснодар");
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").setValue(dateText);
-        $("[data-test-id=name] [type=text]").setValue("Иван Иванов");
+        $("[data-test-id=name] [type=text]").setValue("Ирина Пирогова");
         $("[data-test-id=phone] [type=tel]").setValue("+79883339918");
         $("[data-test-id=agreement]").click();
         $("[role=button] .button__content").click();
@@ -49,7 +50,7 @@ public class CardDeliveryPositiveTest {
         $("[data-test-id=city] [placeholder='Город']").setValue("Краснодар");
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").setValue(dateText);
-        $("[data-test-id=name] [type=text]").setValue("Иван Иванов");
+        $("[data-test-id=name] [type=text]").setValue("Ирина Пирогова-Смирнова");
         $("[data-test-id=phone] [type=tel]").setValue("+79883339918");
         $("[data-test-id=agreement]").click();
         $("[role=button] .button__content").click();
@@ -68,7 +69,7 @@ public class CardDeliveryPositiveTest {
         $("[data-test-id=city] [placeholder='Город']").setValue("Ростов-на-Дону");
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] [class='input__box'] [placeholder='Дата встречи']").setValue(dateText);
-        $("[data-test-id=name] [type=text]").setValue("Иван Иванов");
+        $("[data-test-id=name] [type=text]").setValue("Ирина Пирогова-Смирнова");
         $("[data-test-id=phone] [type=tel]").setValue("+79883339918");
         $("[data-test-id=agreement]").click();
         $("[role=button] .button__content").click();
